@@ -3,7 +3,7 @@
 **with marielle, carolina & stella**
 
 for a more user-friendly documentatino, visit our [notion page](https://www.notion.so/Marielle-Stella-Carolina-MDEF-22-23-34fdfc848ec44d93bae61fdf263d6c88)
- 
+
 **Silly description:** We are paying attention to the city’s street names, the wall paintings, statues and engravings as we believe they are constantly whispering half truths. History is being told by a very particular societal group that has imprisoned one half of the truth somewhere... This machine exists because the present time was very poorly designed by a selective group. The machine will (intentionally) expose the dirty history of hidden public artifacts in order to embrace other futures (by other we mean the furthest point possible from patriarchy, capitalist and neo-colonist structures) so citizens can fully engage, at their own risk, with their cities history.
 
 Questions: 
@@ -34,7 +34,7 @@ Questions:
     - Arduino setup
     - Changed to ESP32 
 
-moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T115311Z&X-Amz-Expires=86400&X-Amz-Signature=f01d4c50d05be26c97f73d54fc8e929b2bec7cedc6c3a69cae4bc201cb3cebe8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject) and how we are slowely[getting there](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120425Z&X-Amz-Expires=86400&X-Amz-Signature=81d2612c4e63dc13ea00c61125af380e77237c1fd2cc3fde751f286a6007b75d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
+moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T115311Z&X-Amz-Expires=86400&X-Amz-Signature=f01d4c50d05be26c97f73d54fc8e929b2bec7cedc6c3a69cae4bc201cb3cebe8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject) and how we are slowely [getting there](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120425Z&X-Amz-Expires=86400&X-Amz-Signature=81d2612c4e63dc13ea00c61125af380e77237c1fd2cc3fde751f286a6007b75d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
 
 ![the board](imagery/arduino2.jpg)
 
@@ -57,7 +57,7 @@ moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.no
 
 ![disk_making.jpg](imagery/disk_making.jpg)
 
-and a moving image of how we happily made it happen: [successsssssss](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82e5323b-2eed-4eb0-b4e5-41193e756244/dispenser_prototype.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120925Z&X-Amz-Expires=86400&X-Amz-Signature=7868c0731bf06cbb774e504740ac7d9c45651776f1d6d8c4a853bca25270f8f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22dispenser_prototype.mp4%22&x-id=GetObject)
+and a moving image of how we happily made it happen, [successsssssss](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82e5323b-2eed-4eb0-b4e5-41193e756244/dispenser_prototype.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120925Z&X-Amz-Expires=86400&X-Amz-Signature=7868c0731bf06cbb774e504740ac7d9c45651776f1d6d8c4a853bca25270f8f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22dispenser_prototype.mp4%22&x-id=GetObject)
 
 - **Outer body of the machine (according to dispenser disk and ball size)**
     - envisioning it based on cultural and ancestral knowledges
@@ -161,8 +161,10 @@ for now we choose three figures to unconver theirs deeds and raise awareness abo
 
 we decided for now on three rather famous ones that are prominent in barcelonas skyline...
 
-Chistopher Columbus:
- [Christopher Columbus](https://www.google.com/maps/place/Columbus+Monument/@41.3765654,2.1730909,15.52z/data=!4m6!3m5!1s0x12a4a256d7bd004b:0x2adc0acddfeb6cb7!8m2!3d41.3758087!4d2.1777606!16s%2Fm%2F04crww4) - coordinates in Lat and Long: 41.376363370357524, 2.1776672290079175
+## Chistopher Columbus:
+ [Christopher Columbus](https://www.google.com/maps/place/Columbus+Monument/@41.3765654,2.1730909,15.52z/data=!4m6!3m5!1s0x12a4a256d7bd004b:0x2adc0acddfeb6cb7!8m2!3d41.3758087!4d2.1777606!16s%2Fm%2F04crww4) 
+
+ - coordinates of the sculpture in the city of Barclone (Lat and Long) 41.376363370357524, 2.1776672290079175
 
 [Christopher Columbus (1)](Chistopher%20Columbus%2083b9fcd5d72e40aeb52aa30bb2df90a8/Christopher%20Columbus%20(1)%2053686794a0824f43a483923dfcefeea6.md)
 
@@ -173,15 +175,22 @@ Chistopher Columbus:
 - Considered the founding father of the slave trade
 - Responsible for 3 Millions Deaths
 
-****[Was Christopher Columbus a Hero or Villain?](https://www.biography.com/history-culture/christopher-columbus-day-facts)****
+**[Was Christopher Columbus a Hero or Villain?](https://www.biography.com/history-culture/christopher-columbus-day-facts)****
 
 - Many people already believed the world was round
 
 
-Joan Prim I Prats
+## Joan Prim I Prats
+
+ - coordinates of the sculpture in the city of Barclone (Lat and Long) 41.39979966550844, 2.1891571903125313
 
 An appointed governor of Puerto Rico at a point in time within these pivotal shifts was Joan Prim y Prats. As acting captain-general (governor) of the island, he created the most infamous Decree against the African race in 1848, only one year after he was delegated to office. Bando Contra La Raza Negra [Decree Against the African Race] was a repressive and punitive decree that made no distinction between free Africans, People of Color and slaves.
-Guell & the others
+
+
+## Guell & the others
+
+ - coordinates of the sculpture in the city of Barclone (Lat and Long) 41.423676898281464, 2.1510620122173028
+
 ***Eusebio’s Guell father - Joan Guell - made a fortune from the slave trader. His son inherented those richness.***
 
 [https://www.foreverbarcelona.com/count-eusebio-guell/](https://www.foreverbarcelona.com/count-eusebio-guell/)
