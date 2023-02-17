@@ -1,7 +1,8 @@
 # Museum Of Colonialization (MOC)
 
-
 'with marielle, carolina & stella'
+
+for a moore user-friendly documentatino, visit our notion page https://www.notion.so/Marielle-Stella-Carolina-MDEF-22-23-34fdfc848ec44d93bae61fdf263d6c88
 
 **Silly description:** We are paying attention to the city’s street names, the wall paintings, statues and engravings as we believe they are constantly whispering half truths. History is being told by a very particular societal group that has imprisoned one half of the truth somewhere... This machine exists because the present time was very poorly designed by a selective group. The machine will (intentionally) expose the dirty history of hidden public artifacts in order to embrace other futures (by other we mean the furthest point possible from patriarchy, capitalist and neo-colonist structures) so citizens can fully engage, at their own risk, with their cities history.
 
@@ -195,3 +196,55 @@ An appointed governor of Puerto Rico at a point in time within these pivotal shi
 ## **Final stickers >**
 
 ![finalstickersimage.png](imagery/finalstickersimage.png)
+
+
+
+# References & Resources
+
+**1st Attempt with Arduino:**
+
+Servo Motor 
+
+1. [https://www.youtube.com/watch?v=SNE8axnq9gI](https://www.youtube.com/watch?v=SNE8axnq9gI)
+2. [https://www.electronics-lab.com/project/using-sg90-servo-motor-arduino/](https://www.electronics-lab.com/project/using-sg90-servo-motor-arduino/) - USED ✅
+
+Button Press & Servo
+
+1. [https://arduinogetstarted.com/tutorials/arduino-button-servo-motor](https://arduinogetstarted.com/tutorials/arduino-button-servo-motor) - USED ✅
+
+**2nd Attempt with ESP32:**
+
+ESP32 Servo Motor Library
+
+- *Coding, commands and functions very similar to the Arduino version*
+
+[https://github.com/RoboticsBrno/ServoESP32](https://github.com/RoboticsBrno/ServoESP32) - USED ✅
+
+[https://www.hackster.io/neosteam-labs/project-11-esp32-feather-push-button-mk02-e87dd3](https://www.hackster.io/neosteam-labs/project-11-esp32-feather-push-button-mk02-e87dd3)
+
+- *Understanding better the command with Daphne -* [https://randomnerdtutorials.com/esp32-servo-motor-web-server-arduino-ide/](https://randomnerdtutorials.com/esp32-servo-motor-web-server-arduino-ide/)
+
+**Mechanisms:**
+
+1. [https://www.youtube.com/watch?v=aomavIH9Y64](https://www.youtube.com/watch?v=aomavIH9Y64) - EXPERIMENTED WITH in order to understand the mechanism behind the gumball machines
+2. [https://www.youtube.com/watch?v=8kRTpmswgFk](https://www.youtube.com/watch?v=8kRTpmswgFk)
+3. [https://makezine.com/projects/secret-knock-gumball-machine//?utm_source=sumome&utm_medium=pinterest&utm_campaign=sumome_share](https://makezine.com/projects/secret-knock-gumball-machine//?utm_source=sumome&utm_medium=pinterest&utm_campaign=sumome_share)
+4. [https://www.youtube.com/watch?v=Z5GADxTa1sA](https://www.youtube.com/watch?v=Z5GADxTa1sA)
+
+**HOW DO GUMBALL MACHINES WORK? GREAT ANIMATION EXPLAINING THE MECHANISMS**
+
+[https://www.youtube.com/watch?v=Q3ZeUNDg4fQ](https://www.youtube.com/watch?v=Q3ZeUNDg4fQ)
+
+**attempt with origami:**
+
+our armadillo
+
+based of orgimai spheres
+
+[origami-simulator](https://origamisimulator.org/)
+
+our origami hero amanda
+
+[and their gitbug shares](https://github.com/amandaghassaei/OrigamiSimulator)
+
+
