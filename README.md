@@ -4,7 +4,7 @@
 'with marielle, carolina & stella'
 
 
-# Steps/Process
+# our process
 
 **Silly description:** We are paying attention to the city’s street names, the wall paintings, statues and engravings as we believe they are constantly whispering half truths. History is being told by a very particular societal group that has imprisoned one half of the truth somewhere... This machine exists because the present time was very poorly designed by a selective group. The machine will (intentionally) expose the dirty history of hidden public artifacts in order to embrace other futures (by other we mean the furthest point possible from patriarchy, capitalist and neo-colonist structures) so citizens can fully engage, at their own risk, with their cities history.
 
@@ -85,3 +85,63 @@
 ![frontview_museum.jpg](imagery/frontview_museum.jpg)
 
 ![stikers1.jpg](imagery/stikers1.jpg)
+
+
+
+# making it work electronically: code
+
+[ButtonSwitch.ino](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/87337473-5b58-4257-bee7-4c66571b34b5/ButtonSwitch.ino?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T122434Z&X-Amz-Expires=86400&X-Amz-Signature=35114100168a7e96b715659e506278d87c663e4fb132c3d4027a9798452e2593&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22ButtonSwitch.ino%22&x-id=GetObject)
+
+**FINAL MOTOR CODE WITH SERVO.H (LIBRARY) FOR ESP32 - ARDUINO IDE**
+
+```jsx
+/*
+ * Created by ArduinoGetStarted.com
+ *
+ * This example code is in the public domain
+ *
+ * Tutorial page: https://arduinogetstarted.com/tutorials/arduino-button-servo-motor
+ */
+
+#include <ESP32Servo.h>
+
+// constants won't change
+const int BUTTON_PIN = 36; // Arduino pin connected to button's pin
+const int SERVO_PIN  = 4; // Arduino pin connected to servo motor's pin
+
+Servo servo; // create servo object to control a servo
+
+// variables will change:
+int angle = 0;          // the current angle of servo motor
+int lastButtonState;    // the previous state of button
+int currentButtonState; // the current state of button
+
+void setup() {
+  Serial.begin(9600);                // initialize serial
+  pinMode(BUTTON_PIN, INPUT_PULLUP); // set arduino pin to input pull-up mode
+  servo.attach(SERVO_PIN);           // attaches the servo on pin 9 to the servo object
+
+  servo.write(angle);
+  currentButtonState = digitalRead(BUTTON_PIN);
+}
+
+void loop() {
+  lastButtonState    = currentButtonState;      // save the last state
+  currentButtonState = digitalRead(BUTTON_PIN); // read new state
+   Serial.println(currentButtonState);
+
+  if(lastButtonState == HIGH && currentButtonState == LOW) {
+    Serial.println("The button is pressed");
+
+    // change angle of servo motor
+    if(angle == 0)
+      angle = 180;
+    else
+    if(angle == 180)
+      angle = 0;
+
+    // control servo motor arccoding to the angle
+    servo.write(angle);
+  }
+}
+```
