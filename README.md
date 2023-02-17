@@ -29,7 +29,7 @@
     - Arduino setup
     - Changed to ESP32 - **see more in [Code](https://www.notion.so/Code-a2bd420d377d4d449d11855274f145c5) and [References & Resources](https://www.notion.so/References-Resources-e2736ea149dc4f89935cc239e962b929)**
 
-[arduino1.mp4](Steps%20Process%202beb500748b641fbad6523d79eabf261/arduino1.mp4)
+[arduino](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T115311Z&X-Amz-Expires=86400&X-Amz-Signature=f01d4c50d05be26c97f73d54fc8e929b2bec7cedc6c3a69cae4bc201cb3cebe8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject)
 
 [arduino3.mp4](Steps%20Process%202beb500748b641fbad6523d79eabf261/arduino3.mp4)
 
