@@ -53,6 +53,7 @@ for a moore user-friendly documentatino, visit our notion page https://www.notio
 
 ![disk_making.jpg](imagery/disk_making.jpg)
 
+
 [succes](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82e5323b-2eed-4eb0-b4e5-41193e756244/dispenser_prototype.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120925Z&X-Amz-Expires=86400&X-Amz-Signature=7868c0731bf06cbb774e504740ac7d9c45651776f1d6d8c4a853bca25270f8f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22dispenser_prototype.mp4%22&x-id=GetObject)
 
 - **Outer body of the machine (according to dispenser disk and ball size)**
@@ -84,6 +85,10 @@ for a moore user-friendly documentatino, visit our notion page https://www.notio
 ![frontview_museum.jpg](imagery/frontview_museum.jpg)
 
 ![stikers1.jpg](imagery/stikers1.jpg)
+
+and heeeere it is
+![final.jpg](imagery/final.jpg)
+
 
 ## making it work electronically: code
 
@@ -235,7 +240,7 @@ ESP32 Servo Motor Library
 
 [https://www.youtube.com/watch?v=Q3ZeUNDg4fQ](https://www.youtube.com/watch?v=Q3ZeUNDg4fQ)
 
-**attempt with origami:**
+**attempts with origami:**
 
 our armadillo
 
