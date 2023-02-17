@@ -1,12 +1,12 @@
 # Museum Of Colonialization (MOC)
 
-'with marielle, carolina & stella'
+**with marielle, carolina & stella**
 
 for a moore user-friendly documentatino, visit our notion page https://www.notion.so/Marielle-Stella-Carolina-MDEF-22-23-34fdfc848ec44d93bae61fdf263d6c88
 
 **Silly description:** We are paying attention to the city’s street names, the wall paintings, statues and engravings as we believe they are constantly whispering half truths. History is being told by a very particular societal group that has imprisoned one half of the truth somewhere... This machine exists because the present time was very poorly designed by a selective group. The machine will (intentionally) expose the dirty history of hidden public artifacts in order to embrace other futures (by other we mean the furthest point possible from patriarchy, capitalist and neo-colonist structures) so citizens can fully engage, at their own risk, with their cities history.
 
-**Questions: 
+Questions: 
 
 **What was more important “Single Ladies” by Beyonce or the Renaissance?”**
 
@@ -34,9 +34,7 @@ for a moore user-friendly documentatino, visit our notion page https://www.notio
     - Arduino setup
     - Changed to ESP32 
 
-[first trial](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T115311Z&X-Amz-Expires=86400&X-Amz-Signature=f01d4c50d05be26c97f73d54fc8e929b2bec7cedc6c3a69cae4bc201cb3cebe8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject)
-
-[getting there](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120425Z&X-Amz-Expires=86400&X-Amz-Signature=81d2612c4e63dc13ea00c61125af380e77237c1fd2cc3fde751f286a6007b75d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
+moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T115311Z&X-Amz-Expires=86400&X-Amz-Signature=f01d4c50d05be26c97f73d54fc8e929b2bec7cedc6c3a69cae4bc201cb3cebe8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject) and how we are slowely[getting there](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120425Z&X-Amz-Expires=86400&X-Amz-Signature=81d2612c4e63dc13ea00c61125af380e77237c1fd2cc3fde751f286a6007b75d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
 
 ![the board](imagery/arduino2.jpg)
 
@@ -59,11 +57,10 @@ for a moore user-friendly documentatino, visit our notion page https://www.notio
 
 ![disk_making.jpg](imagery/disk_making.jpg)
 
-
-[succes](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82e5323b-2eed-4eb0-b4e5-41193e756244/dispenser_prototype.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120925Z&X-Amz-Expires=86400&X-Amz-Signature=7868c0731bf06cbb774e504740ac7d9c45651776f1d6d8c4a853bca25270f8f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22dispenser_prototype.mp4%22&x-id=GetObject)
+and a moving image of how we happily made it happen: [successsssssss](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82e5323b-2eed-4eb0-b4e5-41193e756244/dispenser_prototype.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120925Z&X-Amz-Expires=86400&X-Amz-Signature=7868c0731bf06cbb774e504740ac7d9c45651776f1d6d8c4a853bca25270f8f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22dispenser_prototype.mp4%22&x-id=GetObject)
 
 - **Outer body of the machine (according to dispenser disk and ball size)**
-    - envisioning it based on cultural and ancestral knowledge
+    - envisioning it based on cultural and ancestral knowledges
     
     ![museum_sketches.jpg](imagery/museum_sketches.jpg)
     
@@ -72,10 +69,10 @@ for a moore user-friendly documentatino, visit our notion page https://www.notio
         - **laser kerf patterns** on Adobe Illustrator and passed to rhino 5 for laser cutting in FabLab
         - it also has a very Afrofuturistic aura to it :)
         
-
-- the first wood we worked on was a good material for laser cutting. It burned very fast - making it brittle. Still, we could tell which of the designs were the most flexible.
-
 ![patterns_wood.jpg](imagery/patterns_wood.jpg)
+
+- the first wood we worked on was a good material for laser cutting. It burned very fast - making it brittle. Still, we could tell which of the designs were the most flexible. 
+However, in the end we decided to stick to the easypeasyness of the many potentialities of cardboard. 
 
 **We are now using cardboard with a stripped layer - very flexible, light and has a wonderful texture (almost ancestral like)**
 
@@ -92,7 +89,7 @@ for a moore user-friendly documentatino, visit our notion page https://www.notio
 
 ![stikers1.jpg](imagery/stikers1.jpg)
 
-and heeeere it is
+and heeeere in it's preliminary final state
 ![final.jpg](imagery/final.jpg)
 
 
@@ -154,34 +151,15 @@ void loop() {
 }
 ```
 
-## the content
+## about the content of the armadillos
+
+we updated out initial idea of making small little scultures with a QR-code or a sticker that the receivers would need to stick to the actual scultpure. In the end, who wants to have a colonizer as a little sculture? also, we don't even want people to know their faces let alone seeing them all the time. So we just stick to the stickers - and of course the promise to actually put that sticker into the public sphere...
 
 ## colonizer Stickers
 
-Guell & the others
-***Eusebio’s Guell father - Joan Guell - made a fortune from the slave trader. His son inherented those richness.***
+for now we choose three figures to unconver theirs deeds and raise awareness about. Maybe, making a little bit fun of them. This is mainly due to time and energy-resources available to us during this short challenge-week. there is a infinte amount of people, scultures, habits, unrecognized heritages that we could reveil here and let our armadillos spread the words.
 
-[https://www.foreverbarcelona.com/count-eusebio-guell/](https://www.foreverbarcelona.com/count-eusebio-guell/)
-
-It is worth noting that Spain did not approve the law establishing the abolition of slavery in Cuba until 1880 and that there were anti-abolitionist leagues and demonstrations in many cities around Spain during the same period.
-
-People like signed a manifesto against the abolition of slavery in Cuba: two future bishops, Morgades and Casañas; intellectuals like Rubió i Ors and Duran i Bas; physicians like José de Letamendi; and industrialists and bankers like Güell, Arnús and Ferrer i Vidal. 
-
-[https://www.thenewbarcelonapost.com/en/barcelona-1300-km-of-streets-and-some-controversies/](https://www.thenewbarcelonapost.com/en/barcelona-1300-km-of-streets-and-some-controversies/)
-
-Colonia Guell was created in “reaction to unfavorable popular opinion of Güell among labor groups, who viewed him as “one of the ‘big fish’ who was keeping the workers enslaved” and representing “scheming clerical-colonial interests.””
-
-[https://washingtoncollegereview.files.wordpress.com/2019/09/wysong_a-sea-of-equilibrium-antoni-gaudicc81e28099s-political-undercurrent.pdf](https://washingtoncollegereview.files.wordpress.com/2019/09/wysong_a-sea-of-equilibrium-antoni-gaudicc81e28099s-political-undercurrent.pdf)
-
-**OTHERS**
-
-[Barcelona discovers its slavery inheritance - EUROM](https://europeanmemories.net/press/barcelona-discovers-its-slavery-inheritance/)
-
-["A black woman with no defects for sale": The last slave drivers were Spanish](https://aldianews.com/en/culture/heritage-and-history/last-slaveowners)
-
-[Barcelona’s slave trade history revealed on new walking tour](https://www.theguardian.com/travel/2016/apr/13/barcelona-slave-trade-history-new-walking-tour-catalonia-spain-ramblas)
-
-
+we decided for now on three rather famous ones that are prominent in barcelonas skyline...
 
 Chistopher Columbus:
  [Christopher Columbus](https://www.google.com/maps/place/Columbus+Monument/@41.3765654,2.1730909,15.52z/data=!4m6!3m5!1s0x12a4a256d7bd004b:0x2adc0acddfeb6cb7!8m2!3d41.3758087!4d2.1777606!16s%2Fm%2F04crww4) - coordinates in Lat and Long: 41.376363370357524, 2.1776672290079175
@@ -203,6 +181,28 @@ Chistopher Columbus:
 Joan Prim I Prats
 
 An appointed governor of Puerto Rico at a point in time within these pivotal shifts was Joan Prim y Prats. As acting captain-general (governor) of the island, he created the most infamous Decree against the African race in 1848, only one year after he was delegated to office. Bando Contra La Raza Negra [Decree Against the African Race] was a repressive and punitive decree that made no distinction between free Africans, People of Color and slaves.
+Guell & the others
+***Eusebio’s Guell father - Joan Guell - made a fortune from the slave trader. His son inherented those richness.***
+
+[https://www.foreverbarcelona.com/count-eusebio-guell/](https://www.foreverbarcelona.com/count-eusebio-guell/)
+
+It is worth noting that Spain did not approve the law establishing the abolition of slavery in Cuba until 1880 and that there were anti-abolitionist leagues and demonstrations in many cities around Spain during the same period.
+
+People like signed a manifesto against the abolition of slavery in Cuba: two future bishops, Morgades and Casañas; intellectuals like Rubió i Ors and Duran i Bas; physicians like José de Letamendi; and industrialists and bankers like Güell, Arnús and Ferrer i Vidal. 
+
+[https://www.thenewbarcelonapost.com/en/barcelona-1300-km-of-streets-and-some-controversies/](https://www.thenewbarcelonapost.com/en/barcelona-1300-km-of-streets-and-some-controversies/)
+
+Colonia Guell was created in “reaction to unfavorable popular opinion of Güell among labor groups, who viewed him as “one of the ‘big fish’ who was keeping the workers enslaved” and representing “scheming clerical-colonial interests.””
+
+[https://washingtoncollegereview.files.wordpress.com/2019/09/wysong_a-sea-of-equilibrium-antoni-gaudicc81e28099s-political-undercurrent.pdf](https://washingtoncollegereview.files.wordpress.com/2019/09/wysong_a-sea-of-equilibrium-antoni-gaudicc81e28099s-political-undercurrent.pdf)
+
+**furthermore**
+
+[Barcelona discovers its slavery inheritance - EUROM](https://europeanmemories.net/press/barcelona-discovers-its-slavery-inheritance/)
+
+["A black woman with no defects for sale": The last slave drivers were Spanish](https://aldianews.com/en/culture/heritage-and-history/last-slaveowners)
+
+[Barcelona’s slave trade history revealed on new walking tour](https://www.theguardian.com/travel/2016/apr/13/barcelona-slave-trade-history-new-walking-tour-catalonia-spain-ramblas)
 
 ## **Final stickers >**
 
