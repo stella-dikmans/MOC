@@ -3,13 +3,11 @@
 
 'with marielle, carolina & stella'
 
-
-# our process
-
 **Silly description:** We are paying attention to the city’s street names, the wall paintings, statues and engravings as we believe they are constantly whispering half truths. History is being told by a very particular societal group that has imprisoned one half of the truth somewhere... This machine exists because the present time was very poorly designed by a selective group. The machine will (intentionally) expose the dirty history of hidden public artifacts in order to embrace other futures (by other we mean the furthest point possible from patriarchy, capitalist and neo-colonist structures) so citizens can fully engage, at their own risk, with their cities history.
 
 **Questions: “**What was more important “Single Ladies” by Beyonce or the Renaissance?” ****How is the city of Barcelona telling the stories of the past? Who is telling them and who has been silenced? What are statues of the dead trying to say? What voices of the past are perpetuating illusions and why the end of those lies are hard to imagine? 
 
+# process
 ## Cardboard and paper prototype
 
 - **Ball making**
@@ -86,9 +84,7 @@
 
 ![stikers1.jpg](imagery/stikers1.jpg)
 
-
-
-# making it work electronically: code
+## making it work electronically: code
 
 [ButtonSwitch.ino](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/87337473-5b58-4257-bee7-4c66571b34b5/ButtonSwitch.ino?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T122434Z&X-Amz-Expires=86400&X-Amz-Signature=35114100168a7e96b715659e506278d87c663e4fb132c3d4027a9798452e2593&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22ButtonSwitch.ino%22&x-id=GetObject)
 
@@ -145,3 +141,57 @@ void loop() {
   }
 }
 ```
+
+## the content
+
+## colonizer Stickers
+
+Guell & the others
+***Eusebio’s Guell father - Joan Guell - made a fortune from the slave trader. His son inherented those richness.***
+
+[https://www.foreverbarcelona.com/count-eusebio-guell/](https://www.foreverbarcelona.com/count-eusebio-guell/)
+
+It is worth noting that Spain did not approve the law establishing the abolition of slavery in Cuba until 1880 and that there were anti-abolitionist leagues and demonstrations in many cities around Spain during the same period.
+
+People like signed a manifesto against the abolition of slavery in Cuba: two future bishops, Morgades and Casañas; intellectuals like Rubió i Ors and Duran i Bas; physicians like José de Letamendi; and industrialists and bankers like Güell, Arnús and Ferrer i Vidal. 
+
+[https://www.thenewbarcelonapost.com/en/barcelona-1300-km-of-streets-and-some-controversies/](https://www.thenewbarcelonapost.com/en/barcelona-1300-km-of-streets-and-some-controversies/)
+
+Colonia Guell was created in “reaction to unfavorable popular opinion of Güell among labor groups, who viewed him as “one of the ‘big fish’ who was keeping the workers enslaved” and representing “scheming clerical-colonial interests.””
+
+[https://washingtoncollegereview.files.wordpress.com/2019/09/wysong_a-sea-of-equilibrium-antoni-gaudicc81e28099s-political-undercurrent.pdf](https://washingtoncollegereview.files.wordpress.com/2019/09/wysong_a-sea-of-equilibrium-antoni-gaudicc81e28099s-political-undercurrent.pdf)
+
+**OTHERS**
+
+[Barcelona discovers its slavery inheritance - EUROM](https://europeanmemories.net/press/barcelona-discovers-its-slavery-inheritance/)
+
+["A black woman with no defects for sale": The last slave drivers were Spanish](https://aldianews.com/en/culture/heritage-and-history/last-slaveowners)
+
+[Barcelona’s slave trade history revealed on new walking tour](https://www.theguardian.com/travel/2016/apr/13/barcelona-slave-trade-history-new-walking-tour-catalonia-spain-ramblas)
+
+
+
+Chistopher Columbus:
+ [Christopher Columbus](https://www.google.com/maps/place/Columbus+Monument/@41.3765654,2.1730909,15.52z/data=!4m6!3m5!1s0x12a4a256d7bd004b:0x2adc0acddfeb6cb7!8m2!3d41.3758087!4d2.1777606!16s%2Fm%2F04crww4) - coordinates in Lat and Long: 41.376363370357524, 2.1776672290079175
+
+[Christopher Columbus (1)](Chistopher%20Columbus%2083b9fcd5d72e40aeb52aa30bb2df90a8/Christopher%20Columbus%20(1)%2053686794a0824f43a483923dfcefeea6.md)
+
+![Screenshot 2023-02-15 111906.png](imagery/Screenshot_2023-02-15_111906.png)
+
+[Columbus was a mass killer and the father of the slave trade](https://www.notion.so/Marielle-Stella-Carolina-MDEF-22-23-34fdfc848ec44d93bae61fdf263d6c88)
+
+- Considered the founding father of the slave trade
+- Responsible for 3 Millions Deaths
+
+****[Was Christopher Columbus a Hero or Villain?](https://www.biography.com/history-culture/christopher-columbus-day-facts)****
+
+- Many people already believed the world was round
+
+
+Joan Prim I Prats
+
+An appointed governor of Puerto Rico at a point in time within these pivotal shifts was Joan Prim y Prats. As acting captain-general (governor) of the island, he created the most infamous Decree against the African race in 1848, only one year after he was delegated to office. Bando Contra La Raza Negra [Decree Against the African Race] was a repressive and punitive decree that made no distinction between free Africans, People of Color and slaves.
+
+## **Final stickers >**
+
+![finalstickersimage.png](imagery/finalstickersimage.png)
