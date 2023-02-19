@@ -35,7 +35,7 @@ in designing the prototype, we fuse architectural components from different plac
 
 ![design](imagery/design.jpeg)
 
-then, from cardboard and paper we of built the first prototypes of the insides of the **the gumball machine** which went quit well. It had do be somekind of turning wheel with for making the - **motor spinning 180º** we took following steps:
+then, from cardboard and paper we of built the first prototypes of the insides of the **the gumball machine** which went quit well. It had do be somekind of turning wheel with for making the **motor spinning 180º** we took following steps:
 
     - Code
     - Servo.h library
@@ -44,22 +44,34 @@ then, from cardboard and paper we of built the first prototypes of the insides o
 
 
 
-here you see a moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130231Z&X-Amz-Expires=86400&X-Amz-Signature=dd2166e426ab840216167c5a63f7f90af6ed1a5a367d03f8d9d344bf6cb7601e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject). Then we have some issues with deciding about the size of it all, as you can read about a bit further on, so we soon make a [bigger iteration](https://youtu.be/VP3YisYTgyI). And then soon we advance from cardboard to our plexi-[prototype](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130303Z&X-Amz-Expires=86400&X-Amz-Signature=5594071d212c1295036f7952dda33d8a3e41e05c4af909ba15dbb604cf77d592&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
+here you see a moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130231Z&X-Amz-Expires=86400&X-Amz-Signature=dd2166e426ab840216167c5a63f7f90af6ed1a5a367d03f8d9d344bf6cb7601e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject). Then we have some issues with deciding about the size of it all, as you can read about a bit further on, so we soon make a [bigger iteration](https://youtu.be/VP3YisYTgyI). And then soon we advance from cardboard to our[plexi-prototype](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130303Z&X-Amz-Expires=86400&X-Amz-Signature=5594071d212c1295036f7952dda33d8a3e41e05c4af909ba15dbb604cf77d592&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
 
 and this is how the assembled board looks like after few set ups and with the cut plexi glass 
 ![the board](imagery/arduino2.jpg)
 
 
-- **Dispenser disk according to the ball size**
-    - struggles
+okay, now there this documentation will switch for a second to the design of the balls as there are defining the following problematics we cencounter... for making of the **origami spheres** we took following steps:
+
+    - getting to know origami-simulator.org 
+    - researching origami-simulator library for a fitting design
+    - adapting the design according to our needs
+    - translating the file into a file readable by laser and/ or vinylcutter
+    - cutting the paper
+    - folding the paper into balls
+
+this was thought to be the most easy and time-least intense task yet it turned out to keep us busy for quite some hours, days and evenings. 
+
+
+
+okay, back to the bigger machine in which we now can cooperate the size of the **armadillos**. We adapted the **dispenser disk according to the ball size** and encountered quit some struggles:
         
-        struggling to get a cross that would not interfere with the motor movement. 2 options: 
+        struggling to get a cross that would not interfere with the motor movement. we have two options: 
         
         1 - origami cross, with came up with a cross that almost did not have to cut anything but was hard to manipulate using cardboard; 
         
         2 - crisscross two rectangles by fitting them together - puzzle like. 
         
-        ***We went for the 2nd option as it ended up working the best for cardboard prototyping***
+        ***We went for the sescond option as it ended up working the best for cardboard prototyping***
         
     - ball with 10cm - dispenser has axis with 20cm
     - the frame is a circumference with 23 cm of diameter. It was drawn with a improvised compass (tape, cutter, tape), so it is not the most neat but enough to fulfill its purpose
