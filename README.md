@@ -23,11 +23,11 @@ We are paying attention to the city’s street names, the wall paintings, statue
 
 We design a first prototype for a transparent gumball machine that contains easily digestible, fun(?) facts about the colonisers who have shaped the city. The idea is that one encounters it somewhere in the city, presses a button and opens the (paper) ball received. Inside, one finds a sticker with the image of a coloniser and a fun(?) fact about that person. Opening the paper ball reveals a letter asking the reader to follow the given coordinates and place the stickers at the location - which will be associated with the (legacy of the) person on the sticker. We aim to raise awareness and engage white citizens (whiteness here as a concept of power and privilege of the dominant group in society) who do not think about the people who were and are celebrated as homeland heroes, let alone know about their terrible deeds, and are often not interested enough to research the history themselves. that is why the machiene is supposed to operate in the multiverses of Barcelona and spit out the balls to those who actively make a promise to obtain knowledge. We call this gumball machine, the *museum of colonialization* (MOC).
 
-# how we got there - in theory
+# how we get there - in theory
 
 the first phases are thinking processes about how we want people to engage with the colonial past of the city. We come up with ideas of a toolkit to cast immeediate environments and transform them into stamps, we think about pasting QR-codes onto statues that would lead to a digital environment of knowledge transmission. Soon we venture to the idea of having a gumball machine that in exchange for a promise spits out little versions of the statues that are to be found in the city with their coordinates and some unpopular funny (or rather cynic?) facts about their background. We early on in the process agree upon making knowledge easily digestiable, not speaking to an intellectual public that(probably anyways) is concerned with the theme of (de)colonial practices but instead speak to all those people walking the streets without paying attention to the (come on, actually pretty obvious) colonial legacies. Ok, so far so good, now it is just a matter of making a machiene that has a mechanism that spits out something (a ball) when pressing a buttom (to involve some arduino and coding here), little scultures that can be (dis)assembled (maybe press-fit with the lasercut), stickers on which there are coordinates and fun(?) facts about the represented persons (vinylcut), balls that can contain these sculptures (origami-shapes cut with laser or vinyl), and of course the research on the people we would like to display (our intellect of using the world wide web). We devide tasks. Even if one of our main overlaps is anti-economic-growth, the division-of-labor-thought serves well in the right moments (also we unfortunately put ourselves into a system that operates based on progress and output). Together, Marielle and Carolina would design the look of the gumball machine. Then, Marielle would take over the mechanic parts and with their arduino skills. With the help of Carolina whereever she would be helpful and has time to do so. Furthermore, Carolina would be busy with designing the contents about the colonizers - whereas the research we would do the three of us. Due to expected time-limitation we already here decide to pick each one person that is represented somehow in the city of Barcelona and each focus on some facts about that person. Stella would be concerned with the design of the ball for now and then help where needed. We have another idea att that moment. Maybe, a promise is not enough? What if we could create an application that opens the camera app automatically, and registered whether a photo of the stickered statue is hashtagges somewhere on social media? Well, wee see, that might be something for another iteration. For now, lets start crafting...
 
-# how we got there - in practice
+# how we get there - in practice
 
 well, as always in these things, time flies by and suddenly we realize that our eyes were bigger than out stomachs - or better, our ideas were faster than our learning capacities. 
 
@@ -126,29 +126,29 @@ for this design, we make use of an online [origami-simulator](https://origamisim
 
 the [origami-simulator](https://origamisimulator.org/) is designed by [an amanda](https://github.com/amandaghassaei/OrigamiSimulator) who very helping explains how things work and offer some example files on her [github page](https://github.com/amandaghassaei/OrigamiSimulator). Yet to understand all of this, it took some time and too figure that files can be created and adapted in rhino to work in the simulator, took some more. To explain it short here, she has some [example files](https://github.com/amandaghassaei/OrigamiSimulator/tree/main/assets) under which one of an amazing [sphere](https://github.com/amandaghassaei/OrigamiSimulator/blob/main/assets/Curved/Origami_Sphere_16Flaps.svg) and the [simulation](https://origamisimulator.org/) shows clearly how it folds and unfolds. We download this file, open it in rhino, explode the existing design and define groups and color codes anew, accoding to our needs. The online simulator reads SVGs in one way (File - Design Tips on the [simulator](https://origamisimulator.org/)) (Mountain folds have red stroke - rgb(255, 0, 0), hex #ff0000; Valley folds have blue stroke - rgb(0, 0, 255), hex #0000ff; Boundary edges have black stroke - rgb(0, 0, 0), hex #000000) which can vary from the rules used in the lasercutter- and the vinylprinter software. Here often you can define the actions and allocate them to colors of choice. But its important to keep in mind that the simulation SVGs doo not necessarily have the same color-codes as the rhino-files used for printing. Once created or adapted the rhino-file, we export it as an SVG and uplad it into the simulator. My first trials where kind of beautful yet definetely not as expected. 
 
-<img src="/imagery/trial1pattern.png" width="600" >
-<img src="/imagery/trial1.png" width="600" >
+<img src="/imagery/trial1pattern.png" width="400" >
+<img src="/imagery/trial1.png" width="400" >
 
 here you can see [the simulation](https://www.youtube.com/watch?v=6CcZ05MdBGI)
 
-<img src="/imagery/trial2pattern.png" width="600" >
-<img src="/imagery/trial2.png" width="600" >
+<img src="/imagery/trial2pattern.png" width="400" >
+<img src="/imagery/trial2.png" width="400" >
 
 okay, once we find that it works, we try to immitade [amandas](https://github.com/amandaghassaei/OrigamiSimulator) design by ourselves and play with some drawings in rhino, then we subsequentially upload into the simulator and print in the vinylcutter.
 
-<img src="/imagery/trial3pattern.png" width="600" >
-<img src="/imagery/trial3.png" width="600" >
+<img src="/imagery/trial3pattern.png" width="400" >
+<img src="/imagery/trial3.png" width="400" >
 
 here you can see [the simulation of the almost final piece - something is still wrong](https://www.youtube.com/watch?v=sKiC5CueAeU).
 
 so in the end we sticked to [amandas](https://github.com/amandaghassaei/OrigamiSimulator) file and just adapted the size to a A3 length in order to make it handy when printing. And look there, the fold paper looks prettty much like the simulation. In the end, what does it matter if we created the file ourselves or downloaded other peoples work? sharing is caring and I am sure amanda out them out there for us to make use of them. 
 
-<img src="/imagery/trial4pattern.png" width="600" >
-<img src="/imagery/trial4.png" width="600" >
+<img src="/imagery/trial4pattern.png" width="400" >
+<img src="/imagery/trial4.png" width="400" >
 
 <img src="/imagery/gumballs_armadillo.jpg" width="600" >
 
-<img src="/imagery/armadillosfinal.png" width="600" >
+<img src="/imagery/armadillosfinal.png" width="400" >
 
 a few more things that came up while cutting and printing... we use paper (because we want to print text on them and have the hapticity of a entrance ticket or letter or something foldable that is easy to pocket away), meaning tha engraving the pattern in order to make fold easier have to be very precise not to cut through fully. 
 
@@ -182,7 +182,7 @@ okay, back to the bigger machine in which we now can cooperate the size of the *
     - the frame is a circumference with 23 cm of diameter. It was drawn with a improvised compass (tape, cutter, tape), so it is not the most neat but enough to fulfill its purpose
     
 
-<img src="/imagery/compass_dispenser.jpg" width="600" >
+<img src="/imagery/compass_dispenser.jpg" width="300" >
 
 <img src="/imagery/disk_making.jpg" width="600" >
 
