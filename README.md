@@ -216,6 +216,8 @@ we updated out initial idea of making small little scultures with a QR-code or a
 
 for now we choose three figures to unconver theirs deeds and raise awareness about. Maybe, making a little bit fun of them. This is mainly due to time and energy-resources available to us during this short challenge-week. there is a infinte amount of people, scultures, habits, unrecognized heritages that we could reveil here and let our armadillos spread the words.
 
+<img src="/imagery/stikers1.jpg" width="600" >
+
 we decided for now on three rather famous ones that are prominent in barcelonas skyline...
 
 **Chistopher Columbus**
@@ -273,10 +275,14 @@ Colonia Guell was created in “reaction to unfavorable popular opinion of Güel
 
 <img src="/imagery/finalstickersimage.png" width="600" >
 
-<img src="/imagery/stikers1.jpg" width="600" >
 
 and heeeere in it's preliminary final state
+
 <img src="/imagery/final.jpg" width="600" >
+
+watch us being [exited](https://www.youtube.com/watch?v=h7pCk-1pPlY)
+
+
 
 
 
