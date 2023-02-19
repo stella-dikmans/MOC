@@ -105,9 +105,7 @@ for the vinyl print the final settings were the lowest possible for the folds an
 
 <img src="/imagery/vinylprint" width="600" >
 
-
 okay, the making of the balls was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. In the end, we made it to these little creatures that thanks to Myrto got the name Armadillos (because they look like them...). Here you can see them in [action](https://www.youtube.com/shorts/NzCeEY9-zz4)
-
 
 
 okay, back to the bigger machine in which we now can cooperate the size of the **armadillos**. We adapt the **dispenser disk according to the ball size** and encounter quit some struggles:
@@ -140,9 +138,13 @@ we then rapidly prototype witthout any measurements, just having the first proto
 
 For this, we design in Adobe Illustrator and translate into a rhino 5 file to make it readable for the laser cutter in the FabLab. 
         
-<img src="/imagery/patterns_wood.jpg" width="600" >v
+<img src="/imagery/patterns_wood.jpg" width="600" >
+
+watch here some of the results of [our experiments](https://studio.youtube.com/channel/UCe0ij4fYGIRgQokdwDidUvw)
 
 the first wood we work on is a good material for laser cutting. It burns very fast - making it brittle. Still, we could tell which of the designs were the most flexible. However, in the end we decide to stick to the easypeasyness of the many potentialities of cardboard. 
+
+
 
 **We are now using cardboard with a stripped layer - very flexible, light and has a wonderful texture (almost ancestral like)**
 
