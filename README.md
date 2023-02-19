@@ -2,41 +2,51 @@
 
 **with marielle, carolina & stella**
 
-for a more user-friendly documentatino, visit our [notion page](https://www.notion.so/Marielle-Stella-Carolina-MDEF-22-23-34fdfc848ec44d93bae61fdf263d6c88)
+for a more viewer-friendly documentatino, visit our [notion page](https://www.notion.so/Marielle-Stella-Carolina-MDEF-22-23-34fdfc848ec44d93bae61fdf263d6c88)
 
-**Silly description:** We are paying attention to the city’s street names, the wall paintings, statues and engravings as we believe they are constantly whispering half truths. History is being told by a very particular societal group that has imprisoned one half of the truth somewhere... This machine exists because the present time was very poorly designed by a selective group. The machine will (intentionally) expose the dirty history of hidden public artifacts in order to embrace other futures (by other we mean the furthest point possible from patriarchy, capitalist and neo-colonist structures) so citizens can fully engage, at their own risk, with their cities history.
 
-Questions: 
+**what we ask**
 
-**What was more important “Single Ladies” by Beyonce or the Renaissance?”**
+the background music to this project are some of our beloved reference (partly from social media) that put out leverage points through formulating questions...
+What was more important “Single Ladies” by Beyonce or the Renaissance?
 
-**How is the city of Barcelona telling the stories of the past? Who is telling them and who has been silenced? What are statues of the dead trying to say?**
+How is the city of Barcelona telling the stories of the past? Who is telling them and who has been silenced? What are statues of the dead trying to say?
 
-**What voices of the past are perpetuating illusions and why the end of those lies are hard to imagine?**
+What voices of the past are perpetuating illusions and why the end of those lies are hard to imagine?
 
-# process
-## Cardboard and paper prototype
+**what we do** 
 
-- **Ball making**
-    - laser cut - foldable model
-    - origami model visualization
-    - adapt the size of the ball
-    - design a new version adapted to our machine
-    - come back to the initial design
+We are paying attention to the city’s street names, the wall paintings, statues and engravings as we believe they are constantly whispering half truths. History is being told by a very particular societal group that has imprisoned one half of the truth somewhere... This machiene exists because the present time was very poorly designed by a selective group. The machine will (intentionally) expose the dirty history of hidden public artifacts in order to embrace other futures (by other we mean the furthest point possible from patriarchy, capitalist and neo-colonist structures) so citizens can fully engage, at their own risk, with their cities history. 
 
-![gumballs_armadillo.jpg](imagery/gumballs_armadillo.jpg)
+**what we provide** 
 
-**The last one in the picture was the best! We are calling these Armadillos, because they look like one (thank you Myrto for the tip!)**
+We design a first prototype for a transparent gumball machine that contains easily digestible, fun(?) facts about the colonisers who have shaped the city. The idea is that one encounters it somewhere in the city, presses a button and opens the (paper) ball received. Inside, one finds a sticker with the image of a coloniser and a fun(?) fact about that person. Opening the paper ball reveals a letter asking the reader to follow the given coordinates and place the stickers at the location - which will be associated with the (legacy of the) person on the sticker. We aim to raise awareness and engage white citizens (whiteness here as a concept of power and privilege of the dominant group in society) who do not think about the people who were and are celebrated as homeland heroes, let alone know about their terrible deeds, and are often not interested enough to research the history themselves. that is why the machiene is supposed to operate in the multiverses of Barcelona and spit out the balls to those who actively make a promise to obtain knowledge. We call this gumball machine, the *museum of colonialization* (MOC).
 
-- **Motor spinning 180º**
+# how we got there - in theory
+
+the first phases are thinking processes about how we want people to engage with the colonial past of the city. We come up with ideas of a toolkit to cast immeediate environments and transform them into stamps, we think about pasting QR-codes onto statues that would lead to a digital environment of knowledge transmission. Soon we venture to the idea of having a gumball machine that in exchange for a promise spits out little versions of the statues that are to be found in the city with their coordinates and some unpopular funny (or rather cynic?) facts about their background. We early on in the process agree upon making knowledge easily digestiable, not speaking to an intellectual public that(probably anyways) is concerned with the theme of (de)colonial practices but instead speak to all those people walking the streets without paying attention to the (come on, actually pretty obvious) colonial legacies. Ok, so far so good, now it is just a matter of making a machiene that has a mechanism that spits out something (a ball) when pressing a buttom (to involve some arduino and coding here), little scultures that can be (dis)assembled (maybe press-fit with the lasercut), stickers on which there are coordinates and fun(?) facts about the represented persons (vinylcut), balls that can contain these sculptures (origami-shapes cut with laser or vinyl), and of course the research on the people we would like to display (our intellect of using the world wide web). We devide tasks. Even if one of our main overlaps is anti-economic-growth, the division-of-labor-thought serves well in the right moments (also we unfortunately put ourselves into a system that operates based on progress and output). Together, Marielle and Carolina would design the look of the gumball machine. Then, Marielle would take over the mechanic parts and with their arduino skills. With the help of Carolina whereever she would be helpful and has time to do so. Furthermore, Carolina would be busy with designing the contents about the colonizers - whereas the research we would do the three of us. Due to expected time-limitation we already here decide to pick each one person that is represented somehow in the city of Barcelona and each focus on some facts about that person. Stella would be concerned with the design of the ball for now and then help where needed. We have another idea att that moment. Maybe, a promise is not enough? What if we could create an application that opens the camera app automatically, and registered whether a photo of the stickered statue is hashtagges somewhere on social media? Well, wee see, that might be something for another iteration. For now, lets start crafting...
+
+# how we got there - in practice
+
+well, as always in these things, time flies by and suddenly we realize that our eyes were bigger than out stomachs - or better, our ideas were faster than our learning capacities. 
+
+## the first prototypes
+in designing the prototype, we fuse architectural components from different places (relevant to us), mainly from china town(s) and indigenous and traditional Angolan houses. The use of rounded corners and few straight lines is intentional to express the emotionally charged theme and the many inspiring unputs.
+
+![design](imagery/design.jpg)
+
+then, from cardboard and paper we of built the first prototypes of the insides of the **the gumball machine** which went quit well. It had do be somekind of turning wheel with for making the - **motor spinning 180º** we took following steps:
+
     - Code
     - Servo.h library
     - Arduino setup
     - Changed to ESP32 
 
-moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T115311Z&X-Amz-Expires=86400&X-Amz-Signature=f01d4c50d05be26c97f73d54fc8e929b2bec7cedc6c3a69cae4bc201cb3cebe8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject) and how we are slowely [getting there](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120425Z&X-Amz-Expires=86400&X-Amz-Signature=81d2612c4e63dc13ea00c61125af380e77237c1fd2cc3fde751f286a6007b75d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
+here you see a moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T115311Z&X-Amz-Expires=86400&X-Amz-Signature=f01d4c50d05be26c97f73d54fc8e929b2bec7cedc6c3a69cae4bc201cb3cebe8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject) and how we are slowely [getting there](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120425Z&X-Amz-Expires=86400&X-Amz-Signature=81d2612c4e63dc13ea00c61125af380e77237c1fd2cc3fde751f286a6007b75d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
 
+and this is how the assembled board looks like after few set ups
 ![the board](imagery/arduino2.jpg)
+
 
 - **Dispenser disk according to the ball size**
     - struggles
@@ -58,6 +68,22 @@ moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.no
 ![disk_making.jpg](imagery/disk_making.jpg)
 
 and a moving image of how we happily made it happen, [successsssssss](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82e5323b-2eed-4eb0-b4e5-41193e756244/dispenser_prototype.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120925Z&X-Amz-Expires=86400&X-Amz-Signature=7868c0731bf06cbb774e504740ac7d9c45651776f1d6d8c4a853bca25270f8f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22dispenser_prototype.mp4%22&x-id=GetObject)
+
+
+
+
+
+- **Ball making**
+    - laser cut - foldable model
+    - origami model visualization
+    - adapt the size of the ball
+    - design a new version adapted to our machine
+    - come back to the initial design
+
+![gumballs_armadillo.jpg](imagery/gumballs_armadillo.jpg)
+
+**The last one in the picture was the best! We are calling these Armadillos, because they look like one (thank you Myrto for the tip!)**
+
 
 - **Outer body of the machine (according to dispenser disk and ball size)**
     - envisioning it based on cultural and ancestral knowledges
@@ -255,6 +281,8 @@ ESP32 Servo Motor Library
 
 [https://www.youtube.com/watch?v=Q3ZeUNDg4fQ](https://www.youtube.com/watch?v=Q3ZeUNDg4fQ)
 
+[MOC in action](https://www.youtube.com/watch?v=h7pCk-1pPlY)
+
 **attempts with origami:**
 
 our armadillo
@@ -268,3 +296,6 @@ our origami hero amanda
 [and their gitbug shares](https://github.com/amandaghassaei/OrigamiSimulator)
 
 
+
+
+## the preliminary final
