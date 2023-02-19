@@ -42,8 +42,6 @@ then, from cardboard and paper we of built the first prototypes of the insides o
     - Arduino setup
     - Changed to ESP32 
 
-
-
 here you see a moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130231Z&X-Amz-Expires=86400&X-Amz-Signature=dd2166e426ab840216167c5a63f7f90af6ed1a5a367d03f8d9d344bf6cb7601e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject). Then we have some issues with deciding about the size of it all, as you can read about a bit further on, so we soon make a [bigger iteration](https://youtu.be/VP3YisYTgyI). And then soon we advance from cardboard to our[plexi-prototype](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130303Z&X-Amz-Expires=86400&X-Amz-Signature=5594071d212c1295036f7952dda33d8a3e41e05c4af909ba15dbb604cf77d592&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
 
 and this is how the assembled board looks like after few set ups and with the cut plexi glass 
@@ -52,26 +50,25 @@ and this is how the assembled board looks like after few set ups and with the cu
 
 okay, now there this documentation will switch for a second to the design of the balls as there are defining the following problematics we cencounter... for making of the **origami spheres** we took following steps:
 
-    - getting to know origami-simulator.org 
+    - getting to know [origami-simulator](https://origamisimulator.org/) (origami model visualization)
     - researching origami-simulator library for a fitting design
     - adapting the design according to our needs
     - translating the file into a file readable by laser and/ or vinylcutter
     - cutting the paper
     - folding the paper into balls
-
-this was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. 
-
-
-- **Ball making**
-    - laser cut - foldable model
-    - origami model visualization
     - adapt the size of the ball
     - design a new version adapted to our machine
     - come back to the initial design
 
-<img src="/imagery/gumballs_armadillo.jpg" width="600" >
+throughout, the following struggles occured:
 
-**The last one in the picture was the best! We are calling these Armadillos, because they look like one (thank you Myrto for the tip!)**
+    - the 
+    - 
+
+
+this was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. In the end, we made it to these little creatures that thanks to Myrto got the name Armadillos (becaue they look like them...). Here you can see them in [action](https://www.youtube.com/shorts/NzCeEY9-zz4)
+
+<img src="/imagery/gumballs_armadillo.jpg" width="600" >
 
 
 okay, back to the bigger machine in which we now can cooperate the size of the **armadillos**. We adapt the **dispenser disk according to the ball size** and encounter quit some struggles:
