@@ -33,7 +33,7 @@ well, as always in these things, time flies by and suddenly we realize that our 
 ## the first prototypes
 in designing the prototype, we fuse architectural components from different places (relevant to us), mainly from china town(s) and indigenous and traditional Angolan houses. The use of rounded corners and few straight lines is intentional to express the emotionally charged theme and the many inspiring unputs.
 
-![design](imagery/design.jpg)
+![design](imagery/design.jpeg)
 
 then, from cardboard and paper we of built the first prototypes of the insides of the **the gumball machine** which went quit well. It had do be somekind of turning wheel with for making the - **motor spinning 180º** we took following steps:
 
