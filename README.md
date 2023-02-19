@@ -81,14 +81,32 @@ okay, once we find that it works, we try to immitade [amandas](https://github.co
 
 here you can see [the simulation of the almost final piece - something is still wrong](https://www.youtube.com/watch?v=sKiC5CueAeU).
 
-so in the end we sticked to [amandas](https://github.com/amandaghassaei/OrigamiSimulator)file and just adapted the size to a A3 length in order to make it handy when printing. And look there, the fold paper looks prettty much like the simulation. In the end, what does it matter if we created the file ourselves or downloaded other peoples work? sharing is caring and I am sure amanda out them out there for us to make use of them. 
+so in the end we sticked to [amandas](https://github.com/amandaghassaei/OrigamiSimulator) file and just adapted the size to a A3 length in order to make it handy when printing. And look there, the fold paper looks prettty much like the simulation. In the end, what does it matter if we created the file ourselves or downloaded other peoples work? sharing is caring and I am sure amanda out them out there for us to make use of them. 
 
 <img src="/imagery/trial4pattern.png" width="600" >
 <img src="/imagery/trial4.png" width="600" >
 
 <img src="/imagery/gumballs_armadillo.jpg" width="600" >
 
-okay, the making of the balls was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. In the end, we made it to these little creatures that thanks to Myrto got the name Armadillos (becaue they look like them...). Here you can see them in [action](https://www.youtube.com/shorts/NzCeEY9-zz4)
+<img src="/imagery/armadillosfinal.png" width="600" >
+
+a few more things that came up while cutting and printing... we use paper (because we want to print text on them and have the hapticity of a entrance ticket or letter or something foldable that is easy to pocket away), meaning tha engraving the pattern in order to make fold easier have to be very precise not to cut through fully. 
+
+my experience with the lasercut. I tried a variety of power and speeds
+<img src="/imagery/lasertrials.JPG" width="600" >
+
+and in the end came up with this settings (yet they vary for each lasercutter. I tried with another lasercutter and it was way to heavy there) 
+
+<img src="/imagery/lasercutter.JPG" width="600" >
+
+but for the actual armadillos we did not make use of the lasercutter (mostly due to bad organization and availabilty of the lasercutter) but instead used the vinylcutter. This takes way longer and about the precision can be fought. But it had two great advantages... we could take it with us and for that work on it with immediate adaptations and because it has a blade instead of a laser, there are no traces of burning material to be seen in the end piece. 
+
+for the vinyl print the final settings were the lowest possible for the folds and the standard cutting ones for the outline.
+
+<img src="/imagery/vinylprint" width="600" >
+
+
+okay, the making of the balls was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. In the end, we made it to these little creatures that thanks to Myrto got the name Armadillos (because they look like them...). Here you can see them in [action](https://www.youtube.com/shorts/NzCeEY9-zz4)
 
 
 
