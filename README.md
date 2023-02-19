@@ -31,11 +31,12 @@ the first phases are thinking processes about how we want people to engage with 
 
 well, as always in these things, time flies by and suddenly we realize that our eyes were bigger than out stomachs - or better, our ideas were faster than our learning capacities. 
 
-## the first prototypes
+## gumball machiene design
 in designing the prototype, we fuse architectural components from different places (relevant to us), mainly from china town(s) and indigenous and traditional Angolan houses. The use of rounded corners and few straight lines is intentional to express the emotionally charged theme and the many inspiring unputs.
 
 <img src="/imagery/design.jpeg" width="600" >
 
+## gumball machiene mechanisms and codings
 then, from cardboard and paper we of built the first prototypes of the insides of the **the gumball machine** which went quit well. It had do be somekind of turning wheel with for making the **motor spinning 180º** we took following steps:
 
     - Code
@@ -43,12 +44,71 @@ then, from cardboard and paper we of built the first prototypes of the insides o
     - Arduino setup
     - Changed to ESP32 
 
-here you see a moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130231Z&X-Amz-Expires=86400&X-Amz-Signature=dd2166e426ab840216167c5a63f7f90af6ed1a5a367d03f8d9d344bf6cb7601e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject). Then we have some issues with deciding about the size of it all, as you can read about a bit further on, so we soon make a [bigger iteration](https://youtu.be/VP3YisYTgyI). And then soon we advance from cardboard to our[plexi-prototype](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130303Z&X-Amz-Expires=86400&X-Amz-Signature=5594071d212c1295036f7952dda33d8a3e41e05c4af909ba15dbb604cf77d592&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
+here you see a moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130231Z&X-Amz-Expires=86400&X-Amz-Signature=dd2166e426ab840216167c5a63f7f90af6ed1a5a367d03f8d9d344bf6cb7601e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject). Then we have some issues with deciding about the size of it all, as you can read about a bit further on, so we soon make a [bigger iteration](https://youtu.be/VP3YisYTgyI). And then soon we advance from cardboard to our [plexi-prototype](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130303Z&X-Amz-Expires=86400&X-Amz-Signature=5594071d212c1295036f7952dda33d8a3e41e05c4af909ba15dbb604cf77d592&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
 
 and this is how the assembled board looks like after few set ups and with the cut plexi glass 
 
 <img src="/imagery/arduino2.jpg" width="600" >
 
+## the code
+
+[ButtonSwitch.ino](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/87337473-5b58-4257-bee7-4c66571b34b5/ButtonSwitch.ino?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T122434Z&X-Amz-Expires=86400&X-Amz-Signature=35114100168a7e96b715659e506278d87c663e4fb132c3d4027a9798452e2593&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22ButtonSwitch.ino%22&x-id=GetObject)
+
+**FINAL MOTOR CODE WITH SERVO.H (LIBRARY) FOR ESP32 - ARDUINO IDE**
+
+```jsx
+/*
+ * Created by ArduinoGetStarted.com
+ *
+ * This example code is in the public domain
+ *
+ * Tutorial page: https://arduinogetstarted.com/tutorials/arduino-button-servo-motor
+ */
+
+#include <ESP32Servo.h>
+
+// constants won't change
+const int BUTTON_PIN = 36; // Arduino pin connected to button's pin
+const int SERVO_PIN  = 4; // Arduino pin connected to servo motor's pin
+
+Servo servo; // create servo object to control a servo
+
+// variables will change:
+int angle = 0;          // the current angle of servo motor
+int lastButtonState;    // the previous state of button
+int currentButtonState; // the current state of button
+
+void setup() {
+  Serial.begin(9600);                // initialize serial
+  pinMode(BUTTON_PIN, INPUT_PULLUP); // set arduino pin to input pull-up mode
+  servo.attach(SERVO_PIN);           // attaches the servo on pin 9 to the servo object
+
+  servo.write(angle);
+  currentButtonState = digitalRead(BUTTON_PIN);
+}
+
+void loop() {
+  lastButtonState    = currentButtonState;      // save the last state
+  currentButtonState = digitalRead(BUTTON_PIN); // read new state
+   Serial.println(currentButtonState);
+
+  if(lastButtonState == HIGH && currentButtonState == LOW) {
+    Serial.println("The button is pressed");
+
+    // change angle of servo motor
+    if(angle == 0)
+      angle = 180;
+    else
+    if(angle == 180)
+      angle = 0;
+
+    // control servo motor arccoding to the angle
+    servo.write(angle);
+  }
+}
+```
+
+## the balls - we call them armadillos
 okay, now there this documentation will switch for a second to the design of the balls as there are defining the sequential problematics we cencounter with the mechanics of the machiene itself... for making of the **origami spheres** we took following steps:
 
     - getting to know origamisimulator.org (origami model visualization)
@@ -107,7 +167,7 @@ for the vinyl print the final settings were the lowest possible for the folds an
 
 okay, the making of the balls was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. In the end, we made it to these little creatures that thanks to Myrto got the name Armadillos (because they look like them...). Here you can see them in [action](https://www.youtube.com/shorts/NzCeEY9-zz4)
 
-
+## gumball machiene advanced mechanisms
 okay, back to the bigger machine in which we now can cooperate the size of the **armadillos**. We adapt the **dispenser disk according to the ball size** and encounter quit some struggles:
         
         struggling to get a cross that would not interfere with the motor movement. we have two options: 
@@ -122,17 +182,14 @@ okay, back to the bigger machine in which we now can cooperate the size of the *
     - the frame is a circumference with 23 cm of diameter. It was drawn with a improvised compass (tape, cutter, tape), so it is not the most neat but enough to fulfill its purpose
     
 
-
 <img src="/imagery/compass_dispenser.jpg" width="600" >
 
 <img src="/imagery/disk_making.jpg" width="600" >
 
-
-
+## gumball machiene design specificies
 okay, once we have the internal working, we could move on to the outside design. So, we are envisioning the **outer body of the machine (according to dispenser disk and ball size)** based on cultural and ancestral knowledges as we alerady explain above a bit.
 
 <img src="/imagery/museum_sketches.jpg" width="600" >
-
 
 we then rapidly prototype witthout any measurements, just having the first prototyped ball as a reference angle. In order to get the rounded shapes and edges, we need to have a bending material that would give the illusion of softness. With cardboard, this works very well, so we move on to other materials and try out patterns that help obtain a flexible structure in woods with **laser kerf patterns**. We really like the results as we figure there is a very Afrofuturistic aura to it :)
 
@@ -144,96 +201,24 @@ watch here some of the results of [our experiments](https://www.youtube.com/watc
 
 the first wood we work on is a good material for laser cutting. It burns very fast - making it brittle. Still, we could tell which of the designs were the most flexible. However, in the end we decide to stick to the easypeasyness of the many potentialities of cardboard. 
 
-
-
 **We are now using cardboard with a stripped layer - very flexible, light and has a wonderful texture (almost ancestral like)**
-
-<img src="/imagery/museum_day.before.presentation.jpg" width="600" >
-
-- **Preparing for the final prototype**
-    - Slots testing for fitting the front and back panels to the base of the “museum machine”
-    - 2D drawing of the front of the museum
-    - drawing the stickers of the “colonizers & friends”
-
-<img src="/imagery/slots_test.jpg" width="600" >
 
 <img src="/imagery/frontview_museum.jpg" width="600" >
 
-<img src="/imagery/stikers1.jpg" width="600" >
+<img src="/imagery/museum_day.before.presentation.jpg" width="600" >
 
-and heeeere in it's preliminary final state
-<img src="/imagery/final.jpg" width="600" >
+slots testing for fitting the front and back panels to the base 
+<img src="/imagery/slots_test.jpg" width="600" >
 
-
-## making it work electronically: code
-
-[ButtonSwitch.ino](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/87337473-5b58-4257-bee7-4c66571b34b5/ButtonSwitch.ino?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T122434Z&X-Amz-Expires=86400&X-Amz-Signature=35114100168a7e96b715659e506278d87c663e4fb132c3d4027a9798452e2593&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22ButtonSwitch.ino%22&x-id=GetObject)
-
-**FINAL MOTOR CODE WITH SERVO.H (LIBRARY) FOR ESP32 - ARDUINO IDE**
-
-```jsx
-/*
- * Created by ArduinoGetStarted.com
- *
- * This example code is in the public domain
- *
- * Tutorial page: https://arduinogetstarted.com/tutorials/arduino-button-servo-motor
- */
-
-#include <ESP32Servo.h>
-
-// constants won't change
-const int BUTTON_PIN = 36; // Arduino pin connected to button's pin
-const int SERVO_PIN  = 4; // Arduino pin connected to servo motor's pin
-
-Servo servo; // create servo object to control a servo
-
-// variables will change:
-int angle = 0;          // the current angle of servo motor
-int lastButtonState;    // the previous state of button
-int currentButtonState; // the current state of button
-
-void setup() {
-  Serial.begin(9600);                // initialize serial
-  pinMode(BUTTON_PIN, INPUT_PULLUP); // set arduino pin to input pull-up mode
-  servo.attach(SERVO_PIN);           // attaches the servo on pin 9 to the servo object
-
-  servo.write(angle);
-  currentButtonState = digitalRead(BUTTON_PIN);
-}
-
-void loop() {
-  lastButtonState    = currentButtonState;      // save the last state
-  currentButtonState = digitalRead(BUTTON_PIN); // read new state
-   Serial.println(currentButtonState);
-
-  if(lastButtonState == HIGH && currentButtonState == LOW) {
-    Serial.println("The button is pressed");
-
-    // change angle of servo motor
-    if(angle == 0)
-      angle = 180;
-    else
-    if(angle == 180)
-      angle = 0;
-
-    // control servo motor arccoding to the angle
-    servo.write(angle);
-  }
-}
-```
-
-## about the content of the armadillos
+## the sticker production - our content
 
 we updated out initial idea of making small little scultures with a QR-code or a sticker that the receivers would need to stick to the actual scultpure. In the end, who wants to have a colonizer as a little sculture? also, we don't even want people to know their faces let alone seeing them all the time. So we just stick to the stickers - and of course the promise to actually put that sticker into the public sphere...
-
-## colonizer Stickers
 
 for now we choose three figures to unconver theirs deeds and raise awareness about. Maybe, making a little bit fun of them. This is mainly due to time and energy-resources available to us during this short challenge-week. there is a infinte amount of people, scultures, habits, unrecognized heritages that we could reveil here and let our armadillos spread the words.
 
 we decided for now on three rather famous ones that are prominent in barcelonas skyline...
 
-## Chistopher Columbus:
+**Chistopher Columbus**
  [Christopher Columbus](https://www.google.com/maps/place/Columbus+Monument/@41.3765654,2.1730909,15.52z/data=!4m6!3m5!1s0x12a4a256d7bd004b:0x2adc0acddfeb6cb7!8m2!3d41.3758087!4d2.1777606!16s%2Fm%2F04crww4) 
 
  - coordinates of the sculpture in the city of Barclone (Lat and Long) 41.376363370357524, 2.1776672290079175
@@ -251,15 +236,14 @@ we decided for now on three rather famous ones that are prominent in barcelonas 
 
 - Many people already believed the world was round
 
-
-## Joan Prim I Prats
+**Joan Prim I Prats**
 
  - coordinates of the sculpture in the city of Barclone (Lat and Long) 41.39979966550844, 2.1891571903125313
 
 An appointed governor of Puerto Rico at a point in time within these pivotal shifts was Joan Prim y Prats. As acting captain-general (governor) of the island, he created the most infamous Decree against the African race in 1848, only one year after he was delegated to office. Bando Contra La Raza Negra [Decree Against the African Race] was a repressive and punitive decree that made no distinction between free Africans, People of Color and slaves.
 
 
-## Guell & the others
+**Guell & the others**
 
  - coordinates of the sculpture in the city of Barclone (Lat and Long) 41.423676898281464, 2.1510620122173028
 
@@ -289,7 +273,16 @@ Colonia Guell was created in “reaction to unfavorable popular opinion of Güel
 
 <img src="/imagery/finalstickersimage.png" width="600" >
 
-# References & Resources
+<img src="/imagery/stikers1.jpg" width="600" >
+
+and heeeere in it's preliminary final state
+<img src="/imagery/final.jpg" width="600" >
+
+
+
+
+
+## References & Resources
 
 **1st Attempt with Arduino:**
 
