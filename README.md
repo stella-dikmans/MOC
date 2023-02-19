@@ -8,6 +8,7 @@ for a more viewer-friendly documentatino, visit our [notion page](https://www.no
 **what we ask**
 
 the background music to this project are some of our beloved reference (partly from social media) that put out leverage points through formulating questions...
+
 What was more important “Single Ladies” by Beyonce or the Renaissance?
 
 How is the city of Barcelona telling the stories of the past? Who is telling them and who has been silenced? What are statues of the dead trying to say?
@@ -48,27 +49,46 @@ and this is how the assembled board looks like after few set ups and with the cu
 
 <img src="/imagery/arduino2.jpg" width="600" >
 
-okay, now there this documentation will switch for a second to the design of the balls as there are defining the following problematics we cencounter... for making of the **origami spheres** we took following steps:
+okay, now there this documentation will switch for a second to the design of the balls as there are defining the sequential problematics we cencounter with the mechanics of the machiene itself... for making of the **origami spheres** we took following steps:
 
-    - getting to know [origami-simulator](https://origamisimulator.org/) (origami model visualization)
+    - getting to know origamisimulator.org (origami model visualization)
     - researching origami-simulator library for a fitting design
     - adapting the design according to our needs
-    - translating the file into a file readable by laser and/ or vinylcutter
-    - cutting the paper
+    - translating the (rhino)file into a file readable by the lasercutter (lasercutter software)
+    - laser-cutting the piece in paper (includes the trial of power and speed of laser)
     - folding the paper into balls
-    - adapt the size of the ball
-    - design a new version adapted to our machine
-    - come back to the initial design
+    - adapt size and form of the sphere in rhino
+    - translating the rhino file into a file readable by the vinylprinter (silhuette studio software)
+    - vinyl-printing the piece onto paper (includes the trial of blade-depth and force of vinyl-knife)
+    - folding the paper into balls
 
-throughout, the following struggles occured:
+for this design, we make use of an online [origami-simulator](https://origamisimulator.org/) that would show us how a folding-pattern for a sphere would look like. It is a prototyping tool that is supposed to speed up the process of complex origami shapes (definetely the sphere...). In our case, it worked out semi-professonial I would say.
 
-    - the 
-    - 
+the [origami-simulator](https://origamisimulator.org/) is designed by [an amanda](https://github.com/amandaghassaei/OrigamiSimulator) who very helping explains how things work and offer some example files on her [github page](https://github.com/amandaghassaei/OrigamiSimulator). Yet to understand all of this, it took some time and too figure that files can be created and adapted in rhino to work in the simulator, took some more. To explain it short here, she has some [example files](https://github.com/amandaghassaei/OrigamiSimulator/tree/main/assets) under which one of an amazing [sphere](https://github.com/amandaghassaei/OrigamiSimulator/blob/main/assets/Curved/Origami_Sphere_16Flaps.svg) and the [simulation](https://origamisimulator.org/) shows clearly how it folds and unfolds. We download this file, open it in rhino, explode the existing design and define groups and color codes anew, accoding to our needs. The online simulator reads SVGs in one way (File - Design Tips on the [simulator](https://origamisimulator.org/)) (Mountain folds have red stroke - rgb(255, 0, 0), hex #ff0000; Valley folds have blue stroke - rgb(0, 0, 255), hex #0000ff; Boundary edges have black stroke - rgb(0, 0, 0), hex #000000) which can vary from the rules used in the lasercutter- and the vinylprinter software. Here often you can define the actions and allocate them to colors of choice. But its important to keep in mind that the simulation SVGs doo not necessarily have the same color-codes as the rhino-files used for printing. Once created or adapted the rhino-file, we export it as an SVG and uplad it into the simulator. My first trials where kind of beautful yet definetely not as expected. 
 
+<img src="/imagery/trial1.png" width="600" >
+<img src="/imagery/trial1pattern.png" width="600" >
 
-this was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. In the end, we made it to these little creatures that thanks to Myrto got the name Armadillos (becaue they look like them...). Here you can see them in [action](https://www.youtube.com/shorts/NzCeEY9-zz4)
+here you can see [the simulation](https://www.youtube.com/watch?v=6CcZ05MdBGI)
+
+<img src="/imagery/trial2.png" width="600" >
+<img src="/imagery/trial2pattern.png" width="600" >
+
+<img src="/imagery/trial3.png" width="600" >
+<img src="/imagery/trial3pattern.png" width="600" >
+
+here you can see [the simulation of the almost final piece - something is still wrong](https://www.youtube.com/watch?v=sKiC5CueAeU).
+
+so in the end we sticked to file and just adapted the size to a A3 length in order to make it handy when printing. And look there, the fold paper looks prettty much like the simulation
+
+<img src="/imagery/trial4.png" width="600" >
+<img src="/imagery/trial4pattern.png" width="600" >
+
 
 <img src="/imagery/gumballs_armadillo.jpg" width="600" >
+
+okay, the making of the balls was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. In the end, we made it to these little creatures that thanks to Myrto got the name Armadillos (becaue they look like them...). Here you can see them in [action](https://www.youtube.com/shorts/NzCeEY9-zz4)
+
 
 
 okay, back to the bigger machine in which we now can cooperate the size of the **armadillos**. We adapt the **dispenser disk according to the ball size** and encounter quit some struggles:
