@@ -35,7 +35,7 @@ in designing the prototype, we fuse architectural components from different plac
 
 ![design](imagery/design.jpeg)
 
-<img src="/imagery/design.jpeg" height="60" width="60" >
+<img src="/imagery/design.jpeg" width="600" >
 
 then, from cardboard and paper we of built the first prototypes of the insides of the **the gumball machine** which went quit well. It had do be somekind of turning wheel with for making the **motor spinning 180º** we took following steps:
 
