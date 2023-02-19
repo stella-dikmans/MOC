@@ -338,7 +338,3 @@ our origami hero amanda
 
 [and their gitbug shares](https://github.com/amandaghassaei/OrigamiSimulator)
 
-
-
-
-## the preliminary final
