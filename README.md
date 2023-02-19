@@ -66,24 +66,25 @@ for this design, we make use of an online [origami-simulator](https://origamisim
 
 the [origami-simulator](https://origamisimulator.org/) is designed by [an amanda](https://github.com/amandaghassaei/OrigamiSimulator) who very helping explains how things work and offer some example files on her [github page](https://github.com/amandaghassaei/OrigamiSimulator). Yet to understand all of this, it took some time and too figure that files can be created and adapted in rhino to work in the simulator, took some more. To explain it short here, she has some [example files](https://github.com/amandaghassaei/OrigamiSimulator/tree/main/assets) under which one of an amazing [sphere](https://github.com/amandaghassaei/OrigamiSimulator/blob/main/assets/Curved/Origami_Sphere_16Flaps.svg) and the [simulation](https://origamisimulator.org/) shows clearly how it folds and unfolds. We download this file, open it in rhino, explode the existing design and define groups and color codes anew, accoding to our needs. The online simulator reads SVGs in one way (File - Design Tips on the [simulator](https://origamisimulator.org/)) (Mountain folds have red stroke - rgb(255, 0, 0), hex #ff0000; Valley folds have blue stroke - rgb(0, 0, 255), hex #0000ff; Boundary edges have black stroke - rgb(0, 0, 0), hex #000000) which can vary from the rules used in the lasercutter- and the vinylprinter software. Here often you can define the actions and allocate them to colors of choice. But its important to keep in mind that the simulation SVGs doo not necessarily have the same color-codes as the rhino-files used for printing. Once created or adapted the rhino-file, we export it as an SVG and uplad it into the simulator. My first trials where kind of beautful yet definetely not as expected. 
 
-<img src="/imagery/trial1.png" width="600" >
 <img src="/imagery/trial1pattern.png" width="600" >
+<img src="/imagery/trial1.png" width="600" >
 
 here you can see [the simulation](https://www.youtube.com/watch?v=6CcZ05MdBGI)
 
-<img src="/imagery/trial2.png" width="600" >
 <img src="/imagery/trial2pattern.png" width="600" >
+<img src="/imagery/trial2.png" width="600" >
 
-<img src="/imagery/trial3.png" width="600" >
+okay, once we find that it works, we try to immitade [amandas](https://github.com/amandaghassaei/OrigamiSimulator) design by ourselves and play with some drawings in rhino, then we subsequentially upload into the simulator and print in the vinylcutter.
+
 <img src="/imagery/trial3pattern.png" width="600" >
+<img src="/imagery/trial3.png" width="600" >
 
 here you can see [the simulation of the almost final piece - something is still wrong](https://www.youtube.com/watch?v=sKiC5CueAeU).
 
-so in the end we sticked to file and just adapted the size to a A3 length in order to make it handy when printing. And look there, the fold paper looks prettty much like the simulation
+so in the end we sticked to [amandas](https://github.com/amandaghassaei/OrigamiSimulator)file and just adapted the size to a A3 length in order to make it handy when printing. And look there, the fold paper looks prettty much like the simulation. In the end, what does it matter if we created the file ourselves or downloaded other peoples work? sharing is caring and I am sure amanda out them out there for us to make use of them. 
 
-<img src="/imagery/trial4.png" width="600" >
 <img src="/imagery/trial4pattern.png" width="600" >
-
+<img src="/imagery/trial4.png" width="600" >
 
 <img src="/imagery/gumballs_armadillo.jpg" width="600" >
 
