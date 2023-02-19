@@ -103,7 +103,7 @@ but for the actual armadillos we did not make use of the lasercutter (mostly due
 
 for the vinyl print the final settings were the lowest possible for the folds and the standard cutting ones for the outline.
 
-<img src="/imagery/vinylprint" width="600" >
+<img src="/imagery/vinylprint.png" width="600" >
 
 okay, the making of the balls was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. In the end, we made it to these little creatures that thanks to Myrto got the name Armadillos (because they look like them...). Here you can see them in [action](https://www.youtube.com/shorts/NzCeEY9-zz4)
 
@@ -140,7 +140,7 @@ For this, we design in Adobe Illustrator and translate into a rhino 5 file to ma
         
 <img src="/imagery/patterns_wood.jpg" width="600" >
 
-watch here some of the results of [our experiments](https://studio.youtube.com/channel/UCe0ij4fYGIRgQokdwDidUvw)
+watch here some of the results of [our experiments](https://www.youtube.com/watch?v=FstxQJzx4rc)
 
 the first wood we work on is a good material for laser cutting. It burns very fast - making it brittle. Still, we could tell which of the designs were the most flexible. However, in the end we decide to stick to the easypeasyness of the many potentialities of cardboard. 
 
