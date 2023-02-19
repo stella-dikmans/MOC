@@ -33,8 +33,6 @@ well, as always in these things, time flies by and suddenly we realize that our 
 ## the first prototypes
 in designing the prototype, we fuse architectural components from different places (relevant to us), mainly from china town(s) and indigenous and traditional Angolan houses. The use of rounded corners and few straight lines is intentional to express the emotionally charged theme and the many inspiring unputs.
 
-![design](imagery/design.jpeg)
-
 <img src="/imagery/design.jpeg" width="600" >
 
 then, from cardboard and paper we of built the first prototypes of the insides of the **the gumball machine** which went quit well. It had do be somekind of turning wheel with for making the **motor spinning 180º** we took following steps:
@@ -49,8 +47,8 @@ then, from cardboard and paper we of built the first prototypes of the insides o
 here you see a moving images of our [first trials](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16466796-0670-4749-b0e5-d27b048bc41f/arduino1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130231Z&X-Amz-Expires=86400&X-Amz-Signature=dd2166e426ab840216167c5a63f7f90af6ed1a5a367d03f8d9d344bf6cb7601e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino1.mp4%22&x-id=GetObject). Then we have some issues with deciding about the size of it all, as you can read about a bit further on, so we soon make a [bigger iteration](https://youtu.be/VP3YisYTgyI). And then soon we advance from cardboard to our[plexi-prototype](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f3e51df-b64f-4ac3-bc74-2265a9690209/arduino3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230219T130303Z&X-Amz-Expires=86400&X-Amz-Signature=5594071d212c1295036f7952dda33d8a3e41e05c4af909ba15dbb604cf77d592&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22arduino3.mp4%22&x-id=GetObject)
 
 and this is how the assembled board looks like after few set ups and with the cut plexi glass 
-![the board](imagery/arduino2.jpg)
 
+<img src="/imagery/arduino2.jpg" width="600" >
 
 okay, now there this documentation will switch for a second to the design of the balls as there are defining the following problematics we cencounter... for making of the **origami spheres** we took following steps:
 
@@ -71,7 +69,7 @@ this was thought to be the most easy and time-least intense task yet it turns ou
     - design a new version adapted to our machine
     - come back to the initial design
 
-![gumballs_armadillo.jpg](imagery/gumballs_armadillo.jpg)
+<img src="/imagery/gumballs_armadillo.jpg" width="600" >
 
 **The last one in the picture was the best! We are calling these Armadillos, because they look like one (thank you Myrto for the tip!)**
 
@@ -90,40 +88,43 @@ okay, back to the bigger machine in which we now can cooperate the size of the *
     - the frame is a circumference with 23 cm of diameter. It was drawn with a improvised compass (tape, cutter, tape), so it is not the most neat but enough to fulfill its purpose
     
 
-![compass_dispenser.jpg](imagery/compass_dispenser.jpg)
 
-![disk_making.jpg](imagery/disk_making.jpg)
+<img src="/imagery/compass_dispenser.jpg" width="600" >
+
+<img src="/imagery/disk_making.jpg" width="600" >
+
 
 
 okay, once we have the internal working, we could move on to the outside design. So, we are envisioning the **outer body of the machine (according to dispenser disk and ball size)** based on cultural and ancestral knowledges as we alerady explain above a bit.
 
-![museum_sketches.jpg](imagery/museum_sketches.jpg)
+<img src="/imagery/museum_sketches.jpg" width="600" >
+
 
 we then rapidly prototype witthout any measurements, just having the first prototyped ball as a reference angle. In order to get the rounded shapes and edges, we need to have a bending material that would give the illusion of softness. With cardboard, this works very well, so we move on to other materials and try out patterns that help obtain a flexible structure in woods with **laser kerf patterns**. We really like the results as we figure there is a very Afrofuturistic aura to it :)
 
 For this, we design in Adobe Illustrator and translate into a rhino 5 file to make it readable for the laser cutter in the FabLab. 
         
-![patterns_wood.jpg](imagery/patterns_wood.jpg)
+<img src="/imagery/patterns_wood.jpg" width="600" >v
 
 the first wood we work on is a good material for laser cutting. It burns very fast - making it brittle. Still, we could tell which of the designs were the most flexible. However, in the end we decide to stick to the easypeasyness of the many potentialities of cardboard. 
 
 **We are now using cardboard with a stripped layer - very flexible, light and has a wonderful texture (almost ancestral like)**
 
-![museum_day.before.presentation.jpg](imagery/museum_day.before.presentation.jpg)
+<img src="/imagery/museum_day.before.presentation.jpg" width="600" >
 
 - **Preparing for the final prototype**
     - Slots testing for fitting the front and back panels to the base of the “museum machine”
     - 2D drawing of the front of the museum
     - drawing the stickers of the “colonizers & friends”
 
-![slots_test.jpg](imagery/slots_test.jpg)
+<img src="/imagery/slots_test.jpg" width="600" >
 
-![frontview_museum.jpg](imagery/frontview_museum.jpg)
+<img src="/imagery/frontview_museum.jpg" width="600" >
 
-![stikers1.jpg](imagery/stikers1.jpg)
+<img src="/imagery/stikers1.jpg" width="600" >
 
 and heeeere in it's preliminary final state
-![final.jpg](imagery/final.jpg)
+<img src="/imagery/final.jpg" width="600" >
 
 
 ## making it work electronically: code
@@ -201,7 +202,7 @@ we decided for now on three rather famous ones that are prominent in barcelonas 
 
 [Christopher Columbus (1)](Chistopher%20Columbus%2083b9fcd5d72e40aeb52aa30bb2df90a8/Christopher%20Columbus%20(1)%2053686794a0824f43a483923dfcefeea6.md)
 
-![Screenshot 2023-02-15 111906.png](imagery/Screenshot_2023-02-15_111906.png)
+<img src="/imagery/Screenshot_2023-02-15_111906.png" width="600" >
 
 [Columbus was a mass killer and the father of the slave trade](https://www.notion.so/Marielle-Stella-Carolina-MDEF-22-23-34fdfc848ec44d93bae61fdf263d6c88)
 
@@ -248,9 +249,7 @@ Colonia Guell was created in “reaction to unfavorable popular opinion of Güel
 
 ## **Final stickers >**
 
-![finalstickersimage.png](imagery/finalstickersimage.png)
-
-
+<img src="/imagery/finalstickersimage.png" width="600" >
 
 # References & Resources
 
