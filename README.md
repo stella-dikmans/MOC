@@ -59,32 +59,7 @@ okay, now there this documentation will switch for a second to the design of the
     - cutting the paper
     - folding the paper into balls
 
-this was thought to be the most easy and time-least intense task yet it turned out to keep us busy for quite some hours, days and evenings. 
-
-
-
-okay, back to the bigger machine in which we now can cooperate the size of the **armadillos**. We adapted the **dispenser disk according to the ball size** and encountered quit some struggles:
-        
-        struggling to get a cross that would not interfere with the motor movement. we have two options: 
-        
-        1 - origami cross, with came up with a cross that almost did not have to cut anything but was hard to manipulate using cardboard; 
-        
-        2 - crisscross two rectangles by fitting them together - puzzle like. 
-        
-        ***We went for the sescond option as it ended up working the best for cardboard prototyping***
-        
-    - ball with 10cm - dispenser has axis with 20cm
-    - the frame is a circumference with 23 cm of diameter. It was drawn with a improvised compass (tape, cutter, tape), so it is not the most neat but enough to fulfill its purpose
-    
-
-![compass_dispenser.jpg](imagery/compass_dispenser.jpg)
-
-![disk_making.jpg](imagery/disk_making.jpg)
-
-and a moving image of how we happily made it happen, [successsssssss](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82e5323b-2eed-4eb0-b4e5-41193e756244/dispenser_prototype.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230217T120925Z&X-Amz-Expires=86400&X-Amz-Signature=7868c0731bf06cbb774e504740ac7d9c45651776f1d6d8c4a853bca25270f8f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22dispenser_prototype.mp4%22&x-id=GetObject)
-
-
-
+this was thought to be the most easy and time-least intense task yet it turns out to keep us busy for quite some hours, days and evenings. 
 
 
 - **Ball making**
@@ -99,20 +74,36 @@ and a moving image of how we happily made it happen, [successsssssss](https://s3
 **The last one in the picture was the best! We are calling these Armadillos, because they look like one (thank you Myrto for the tip!)**
 
 
-- **Outer body of the machine (according to dispenser disk and ball size)**
-    - envisioning it based on cultural and ancestral knowledges
+okay, back to the bigger machine in which we now can cooperate the size of the **armadillos**. We adapt the **dispenser disk according to the ball size** and encounter quit some struggles:
+        
+        struggling to get a cross that would not interfere with the motor movement. we have two options: 
+        
+        1 - origami cross, with came up with a cross that almost did not have to cut anything but was hard to manipulate using cardboard; 
+        
+        2 - crisscross two rectangles by fitting them together - puzzle like. 
+        
+        We went for the second option as it ended up working the best for cardboard prototyping
+        
+    - ball with 10cm - dispenser has axis with 20cm
+    - the frame is a circumference with 23 cm of diameter. It was drawn with a improvised compass (tape, cutter, tape), so it is not the most neat but enough to fulfill its purpose
     
-    ![museum_sketches.jpg](imagery/museum_sketches.jpg)
-    
-    - rapid prototyping without many measurements. Doing it based on the disk and ball size.
-    - bended base of the machine: after the cardboard prototyping we moved on to patterns that help obtain a flexible structure
-        - **laser kerf patterns** on Adobe Illustrator and passed to rhino 5 for laser cutting in FabLab
-        - it also has a very Afrofuturistic aura to it :)
+
+![compass_dispenser.jpg](imagery/compass_dispenser.jpg)
+
+![disk_making.jpg](imagery/disk_making.jpg)
+
+
+okay, once we have the internal working, we could move on to the outside design. So, we are envisioning the **outer body of the machine (according to dispenser disk and ball size)** based on cultural and ancestral knowledges as we alerady explain above a bit.
+
+![museum_sketches.jpg](imagery/museum_sketches.jpg)
+
+we then rapidly prototype witthout any measurements, just having the first prototyped ball as a reference angle. In order to get the rounded shapes and edges, we need to have a bending material that would give the illusion of softness. With cardboard, this works very well, so we move on to other materials and try out patterns that help obtain a flexible structure in woods with **laser kerf patterns**. We really like the results as we figure there is a very Afrofuturistic aura to it :)
+
+For this, we design in Adobe Illustrator and translate into a rhino 5 file to make it readable for the laser cutter in the FabLab. 
         
 ![patterns_wood.jpg](imagery/patterns_wood.jpg)
 
-- the first wood we worked on was a good material for laser cutting. It burned very fast - making it brittle. Still, we could tell which of the designs were the most flexible. 
-However, in the end we decided to stick to the easypeasyness of the many potentialities of cardboard. 
+the first wood we work on is a good material for laser cutting. It burns very fast - making it brittle. Still, we could tell which of the designs were the most flexible. However, in the end we decide to stick to the easypeasyness of the many potentialities of cardboard. 
 
 **We are now using cardboard with a stripped layer - very flexible, light and has a wonderful texture (almost ancestral like)**
 
